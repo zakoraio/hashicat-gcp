@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/SAURABHRAI-training/network/google"
   version = "2.5.0"
   # insert required variables here
-  network_name = "saurabh_network"
+  network_name = "saurabh-network"
   project_id =  var.project
   subnets = [
   {
